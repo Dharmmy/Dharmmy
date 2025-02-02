@@ -1,50 +1,93 @@
+👋 Hey there!  
 
-👋 Hey there!
+Welcome to my GitHub repository! I'm a Full-Stack Web Developer with 5+ years of experience building  scalable and responsive web applications. My stack includes:  
 
-Welcome to my GitHub repository! I'm a Django developer with 3+ years of experience and I'm excited to share my work with you.
+- Frontend: React.js (with modern frameworks and libraries)  
+-  Backend:Django & Django REST Framework  
+- Databases:PostgreSQL, MySQL, SQLite, Firebase  
 
-📁 Project Structure
-This repository contains my latest project using Django. The project structure is organized in the following way:
+📁 Project Structure  
 
+This repository contains my latest project using React.js for the frontend and Django for the backend. The project is structured as follows:  
+
+```plaintext
 project_name/
 │
-├── app_name/
-│   ├── templates/
-│   ├── static/
-│   ├── admin.py
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
+├── backend/   Django Backend
+│   ├── app_name/
+│   │   ├── templates/
+│   │   ├── static/
+│   │   ├── admin.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── ...
+│   ├── project_name/
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   │   └── ...
+│   ├── requirements.txt
+│   ├── manage.py
 │   └── ...
 │
-├── project_name/
-│   ├── settings.py
-│   ├── urls.py
-│   ├── wsgi.py
+├── frontend/   React Frontend
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── ...
+│   ├── package.json
+│   ├── .env
+│   ├── public/
 │   └── ...
 │
-├── requirements.txt
-├── manage.py
-└── ...
+└── README.md
+```
 
+🚀 How to Run  
 
-🚀 How to Run
-To run this project, you need to have Python and Django installed on your machine. You can install the dependencies by running:
+ Backend (Django)  
+Make sure you have Python and Django installed. Install dependencies with:  
 
-
+```bash
 pip install -r requirements.txt
+```
 
-Then, you can start the server by running:
+Run database migrations:  
 
+```bash
+python manage.py migrate
+```
 
+Start the backend server:  
 
+```bash
 python manage.py runserver
+```
 
+ Frontend (React.js)  
+Navigate to the `frontend/` directory and install dependencies:  
 
-🙌 Contributing
-If you're interested in contributing to this project, feel free to open an issue or submit a pull request. I'm always looking for ways to improve my code and collaborate with other developers.
+```bash
+npm install
+```
 
-📧 Contact
-If you have any questions or feedback, feel free to contact me at Oluwadamilaremetibemu@gmail.com .
+Start the React development server:  
+
+```bash
+npm start
+```
+
+🙌 Contributing  
+
+I'm always open to collaborations! Feel free to open an issue or submit a pull request if you have improvements, feature suggestions, or bug fixes.  
+
+📧 Contact  
+
+If you have any questions or feedback, reach out to me at Oluwadamilaremetibemu@gmail.com.  
 
 Thanks for checking out my project! 😃
