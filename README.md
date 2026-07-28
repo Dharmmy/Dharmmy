@@ -1,6 +1,6 @@
 👋 Hey there!  
 
-Welcome to my GitHub repository! I'm a Full-Stack Web Developer with 5+ years of experience building  scalable and responsive web applications. My stack includes:  
+Welcome to my GitHub repository! I'm a Full-Stack Web Developer with 7+ years of experience building  scalable and responsive web applications. My stack includes:  
 
 - Frontend: React.js (with modern frameworks and libraries)  
 -  Backend:Django & Django REST Framework  
